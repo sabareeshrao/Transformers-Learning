@@ -5,6 +5,7 @@ Target: **365 detailed development days**
 | Day | Ticket | Engineering problem | Status |
 |---:|---|---|---|
 | 1 | TL-001 | Represent token IDs with a valid batch-first PyTorch tensor contract | ✅ Complete |
+| 2 | TL-002 | Convert raw text into deterministic vocabulary-backed token IDs and reuse the Day 1 tensor contract | ✅ Complete |
 
 ## Rules
 

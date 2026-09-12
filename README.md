@@ -26,6 +26,7 @@ Code introduced during the journey is marked with comments such as:
 
 ```python
 # Day 1.3: TL-001 convert token ids into a batch-first tensor
+# Day 2.3: TL-002 introduce deterministic lowercase whitespace tokenization
 ```
 
 These markers remain in the source so later files show how the implementation evolved over time.
@@ -33,8 +34,8 @@ These markers remain in the source so later files show how the implementation ev
 ## Current Progress
 
 - Target: 365 detailed days
-- Completed: Day 1 / 365
-- Latest ticket: `TL-001`
-- Latest topic: token IDs, tensor shape, and the model input contract
+- Completed: Day 2 / 365
+- Latest ticket: `TL-002`
+- Latest topic: raw text, tokenization, vocabulary lookup, unknown-token fallback, and reuse of the Day 1 tensor contract
 
 The earlier `TEST Verify Transformers-Learning push access` commit is only a connection check and does not count as a learning day.
