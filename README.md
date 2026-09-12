@@ -15,4 +15,4 @@ Reference repository: `huggingface/transformers`
 
 ## Current progress
 
-Day 1 / 600 complete: create and print the first PyTorch tensor.
+Day 2 / 600 complete: inspect the shape of a PyTorch tensor.
