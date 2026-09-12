@@ -4,4 +4,37 @@ Hands-on reconstruction of core ideas and engineering patterns from Hugging Face
 
 Reference repository: `huggingface/transformers`
 
-This repository will evolve through small, meaningful learning commits. Day 1 has not started yet. This initial commit only verifies GitHub write access.
+This repository does not copy the finished library wholesale. It rebuilds important transformer concepts in a logical learning order through small, working commits.
+
+## Development Method
+
+Each day represents one primary engineering problem and one meaningful learning commit.
+
+Every day includes:
+
+- engineering group discussion
+- design decision
+- exact files and code
+- runnable verification
+- tests
+- Day X.Y source markers
+- Git commit and push verification
+
+## Source History Markers
+
+Code introduced during the journey is marked with comments such as:
+
+```python
+# Day 1.3: TL-001 convert token ids into a batch-first tensor
+```
+
+These markers remain in the source so later files show how the implementation evolved over time.
+
+## Current Progress
+
+- Target: 365 detailed days
+- Completed: Day 1 / 365
+- Latest ticket: `TL-001`
+- Latest topic: token IDs, tensor shape, and the model input contract
+
+The earlier `TEST Verify Transformers-Learning push access` commit is only a connection check and does not count as a learning day.
